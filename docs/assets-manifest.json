@@ -1,0 +1,72 @@
+[
+  {
+    "originalName": "9.jpeg",
+    "path": "assets/originals/fotos/9.jpeg",
+    "category": "fotos",
+    "bytes": 186764,
+    "sha256": "2D9F429A402D0E28CF436D2B9FCDFD26F7404756F44229591CFEF2D2F63D145F"
+  },
+  {
+    "originalName": "8.jpeg",
+    "path": "assets/originals/fotos/8.jpeg",
+    "category": "fotos",
+    "bytes": 163415,
+    "sha256": "57E5A6AC2751D7C80B583F3549B39281F9D781A267591D660E134324D47F7E17"
+  },
+  {
+    "originalName": "7.jpeg",
+    "path": "assets/originals/fotos/7.jpeg",
+    "category": "fotos",
+    "bytes": 164774,
+    "sha256": "76C0F39040A3ED49D95A897F1D5BDA6C8C060CCDE3055D1DE7E499F9BE2E243A"
+  },
+  {
+    "originalName": "6.jpeg",
+    "path": "assets/originals/fotos/6.jpeg",
+    "category": "fotos",
+    "bytes": 120803,
+    "sha256": "18EEEDA8BEC0CC1D1A089F623A243E00908E0570DDD9D4E3AAFB2201982A453C"
+  },
+  {
+    "originalName": "5.jpeg",
+    "path": "assets/originals/fotos/5.jpeg",
+    "category": "fotos",
+    "bytes": 118460,
+    "sha256": "CEF4366CBB0EDB89A116001CCB94EC3BCB72713C5D14C166AC47FA90E8512B7D"
+  },
+  {
+    "originalName": "4.jpeg",
+    "path": "assets/originals/fotos/4.jpeg",
+    "category": "fotos",
+    "bytes": 105501,
+    "sha256": "EB82E8357D663C15E40BEE27CDC48D822779344EA3EB9FB60810D36B2169EBC5"
+  },
+  {
+    "originalName": "3.jpeg",
+    "path": "assets/originals/fotos/3.jpeg",
+    "category": "fotos",
+    "bytes": 134028,
+    "sha256": "2DF48810DDAE0DC05164F4671F163F1452FE115FEAB8C27EC951F8B4817620C1"
+  },
+  {
+    "originalName": "2.jpeg",
+    "path": "assets/originals/logo/2.jpeg",
+    "category": "logo",
+    "bytes": 36098,
+    "sha256": "E8D0476E2D9C05309F915B8A89C00A8FDE98F6A8E42CF97A34F2A2E3EB83910F"
+  },
+  {
+    "originalName": "1.jpeg",
+    "path": "assets/originals/logo/1.jpeg",
+    "category": "logo",
+    "bytes": 40182,
+    "sha256": "8B1FB42170FF212C24864DA36E84382F9D3F3564303FE0ACCD35EDE6144E6300"
+  },
+  {
+    "originalName": "paletas.jpeg",
+    "path": "assets/originals/paleta/paletas.jpeg",
+    "category": "paleta",
+    "bytes": 12754,
+    "sha256": "B22E35F4917657FD07F304B14370BE389A2C9378A6FA5BFD27A945C9D4951014"
+  }
+]

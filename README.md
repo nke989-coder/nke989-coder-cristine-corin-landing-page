@@ -20,11 +20,10 @@ Base do projeto para desenvolvimento iterativo de uma landing page premium, com 
 
 ## Próxima etapa
 
-1. Concluir o envio e verificar os arquivos no repositório remoto.
-2. Receber os cards do Protocolo Essência.
-3. Definir a tecnologia com o usuário antes de instalar dependências.
-4. Desenvolver a página com a logo original e materiais reais; validar cada iteração.
-5. Completar o CRN e revisar o conteúdo antes da publicação.
+1. Receber os cards do Protocolo Essência.
+2. Definir a tecnologia com o usuário antes de instalar dependências.
+3. Desenvolver a página com a logo original e materiais reais; validar cada iteração.
+4. Completar o CRN e revisar o conteúdo antes da publicação.
 
 ## Preservação da identidade
 
