@@ -4,8 +4,8 @@ Base do projeto para desenvolvimento iterativo de uma landing page premium, com 
 
 ## Estado atual
 
-- 10 anexos recuperados e preservados sem edição: 2 logos, 7 fotos e 1 paleta.
-- Cards do Protocolo Essência: aguardando envio; não estavam entre os anexos recuperados.
+- 13 materiais preservados sem edição: 2 logos, 7 fotos, 1 paleta e 3 cards do Protocolo Essência.
+- Cards do Protocolo Essência recebidos: `10.jpeg`, `11.jpeg` e `12.jpeg`.
 - Repositório remoto público criado: https://github.com/nke989-coder/nke989-coder-cristine-corin-landing-page
 - Estrutura de pastas e dados confirmados preparados; aplicação e tecnologia ainda não definidas.
 - Sem publicação ou deploy nesta etapa.
@@ -20,10 +20,9 @@ Base do projeto para desenvolvimento iterativo de uma landing page premium, com 
 
 ## Próxima etapa
 
-1. Receber os cards do Protocolo Essência.
-2. Definir a tecnologia com o usuário antes de instalar dependências.
-3. Desenvolver a página com a logo original e materiais reais; validar cada iteração.
-4. Completar o CRN e revisar o conteúdo antes da publicação.
+1. Definir a tecnologia com o usuário antes de instalar dependências.
+2. Desenvolver a página com a logo original e materiais reais; validar cada iteração.
+3. Completar o CRN e revisar o conteúdo antes da publicação.
 
 ## Preservação da identidade
 

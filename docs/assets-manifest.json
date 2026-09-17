@@ -68,5 +68,26 @@
     "category": "paleta",
     "bytes": 12754,
     "sha256": "B22E35F4917657FD07F304B14370BE389A2C9378A6FA5BFD27A945C9D4951014"
+  },
+  {
+    "originalName": "10.jpeg",
+    "path": "assets/originals/protocolo-essencia/10.jpeg",
+    "category": "protocolo-essencia",
+    "bytes": 187681,
+    "sha256": "A5789BD5D462EDFD3B3F63DD918F1A02EE54C50D94306AABAC4E932D53F47BA3"
+  },
+  {
+    "originalName": "11.jpeg",
+    "path": "assets/originals/protocolo-essencia/11.jpeg",
+    "category": "protocolo-essencia",
+    "bytes": 148341,
+    "sha256": "519A588C54AA7E11B361BB9592C9F7326B892097E6F74A8790E95C456AD3E1AE"
+  },
+  {
+    "originalName": "12.jpeg",
+    "path": "assets/originals/protocolo-essencia/12.jpeg",
+    "category": "protocolo-essencia",
+    "bytes": 98783,
+    "sha256": "0217C232B9871C133DCAD79451D55193209F197F6B2EBA57F6491CF4783D7839"
   }
 ]
