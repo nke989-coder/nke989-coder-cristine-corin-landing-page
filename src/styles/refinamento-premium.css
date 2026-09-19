@@ -1,0 +1,212 @@
+/* Cristine Corin — refinamento editorial. Camada isolada, reversível e sem alterar conteúdos ou fotos originais. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  --paper: #faf8f4;
+  --cream: #eee6d9;
+  --olive: #596445;
+  --olive-dark: #394531;
+  --ink: #30372c;
+  --muted: #5e6459;
+  --line: #d9dbcf;
+  --serif: 'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+  --sans: 'DM Sans', 'Manrope', Arial, sans-serif;
+}
+
+body {font-size: 15px; line-height: 1.75; -webkit-font-smoothing: antialiased;}
+h1,h2,h3 {font-weight: 400; letter-spacing: -.018em; line-height: 1.075;}
+h2 {font-size: clamp(46px, 4.65vw, 68px); letter-spacing: -.025em;}
+h2 em {color: var(--olive);}
+.section-shell {max-width: 1400px;}
+.section-space {padding-top: 120px; padding-bottom: 120px;}
+.eyebrow {font-size: 11px; font-weight: 600; letter-spacing: .14em; line-height: 1.5;}
+.button {min-height: 56px; padding: 17px 25px; font-size: 12px; font-weight: 600; letter-spacing: .005em; transition: background .2s ease, color .2s ease, transform .2s ease, border-color .2s ease;}
+.button:focus-visible, .text-link:focus-visible {outline-offset: 5px;}
+.button-primary {background: var(--olive-dark);}
+.button-primary:hover {background: #273322;}
+.button-outline:hover {background: #f1f1ea;}
+.button-cream {background: #f6f0e6; color: var(--olive-dark);}
+.button-cream:hover {background: white;}
+.text-link {font-size: 13px;}
+
+/* Cabeçalho: o arquivo original tem margens internas; ampliamos a marca, sem recriá-la. */
+.site-header {background: #fff; border-bottom: 1px solid #e7e9df;}
+.header-inner {height: 122px; gap: 38px;}
+.brand {width: 272px; height: 112px; flex-shrink: 0;}
+.brand img {width: 278px; left: -4px; top: -80px; filter: contrast(1.35); mix-blend-mode: multiply;}
+.nav {gap: clamp(17px, 2.5vw, 38px); font-size: 12px; font-weight: 500;}
+.nav>a:not(.button) {padding: 18px 0;}
+.nav-cta {font-size: 12px; min-height: 48px; padding: 13px 21px; margin-left: 0; gap: 27px;}
+
+/* Primeira dobra: tipografia mais legível e imagem composta como retrato editorial. */
+.hero {grid-template-columns: minmax(0,1.07fr) minmax(0,.93fr); min-height: 760px; gap: clamp(40px, 5vw, 88px); padding-top: 73px; padding-bottom: 102px;}
+.hero-copy {padding: 0 0 24px;}
+.hero-copy .eyebrow {font-size: 12px; font-weight: 600; letter-spacing: .14em; gap: 14px; margin-bottom: 36px;}
+.short-rule {width: 34px; flex: 0 0 34px;}
+h1 {font-size: clamp(64px, 6.5vw, 96px); letter-spacing: -.032em; line-height: .99;}
+h1 em {color: var(--olive);}
+.intro {font-size: 15px; line-height: 1.85; margin: 30px 0 31px; color: var(--muted);}
+.hero-signature {margin-top: 32px; gap: 13px;}
+.hero-signature p {font-size: 12px;}
+.hero-signature p span {font-size: 10px; margin-top: 2px;}
+.hero-visual {margin-right: 20px; padding-bottom: 50px;}
+.photo-frame {border-radius: 235px 235px 2px 2px;}
+.hero-photo {height: 565px; object-fit: cover; object-position: 50% 39%;}
+.photo-caption {left: -26px; right: 25px; bottom: 0; padding: 19px 25px; gap: 20px; background: #f2ece1; border-top: 1px solid #d3d8c8; box-shadow: 0 14px 28px #34392710; font-size: 27px; line-height: 1.04;}
+.caption-number {font-size: 10px; color: var(--olive-dark);}
+.vertical-note {right: -27px; top: 44px; font-size: 9px; letter-spacing: .19em;}
+.explore-link {bottom: 31px; font-size: 9px; letter-spacing: .16em;}
+
+/* Substituição dos asteriscos pelo monograma real, recortado da logo original. */
+.caption-spark, .band-separator {font-size: 0 !important; position: relative; display: block; width: 46px; height: 46px; flex: 0 0 46px; overflow: hidden;}
+.caption-spark::before, .band-separator::before {content: ''; position: absolute; inset: 0; background-image: url('../../assets/originals/logo/2.jpeg'); background-size: 136px auto; background-position: -35px -39px; background-repeat: no-repeat;}
+.caption-spark::before {filter: contrast(1.55); mix-blend-mode: multiply;}
+.brand-band {padding-top: 30px; padding-bottom: 30px; gap: 26px; background: var(--olive-dark);}
+.brand-band>span:not(.band-note):not(.band-separator) {font-size: clamp(34px, 3vw, 43px); font-style: normal; letter-spacing: -.02em;}
+.band-separator {width: 38px; height: 38px; flex-basis: 38px;}
+.band-separator::before {background-size: 116px auto; background-position: -30px -33px; filter: grayscale(1) invert(1) contrast(1.2); mix-blend-mode: screen;}
+.band-note {font-size: 10px; line-height: 1.5; letter-spacing: .1em; margin-left: 15px;}
+
+/* Ritmo editorial e consistência em todas as seções. */
+.section-heading .eyebrow {margin-bottom: 23px;}
+.care-grid {margin-top: 66px;}
+.care-item {padding-left: 38px; padding-right: 38px;}
+.care-item h3 {font-size: 34px; letter-spacing: -.01em;}
+.care-item p {font-size: 14px; line-height: 1.75;}
+.item-number {font-size: 25px;}
+.about {gap: clamp(58px, 7vw, 110px);}
+.about-visual>img {border-radius: 0 145px 0 0;}
+.about-copy h2 {font-size: clamp(48px, 4.5vw, 67px);}
+.about-copy .role {font-size: 12px; font-weight: 600; margin-top: 25px; letter-spacing: .015em;}
+.about-copy>p:not(.eyebrow):not(.role) {font-size: 14px; line-height: 1.85;}
+.about-copy blockquote {font-size: 34px; line-height: 1.2;}
+.essence {padding-top: 78px; padding-bottom: 80px;}
+.essence-topline .eyebrow, .essence-edition {font-size: 10px; letter-spacing: .12em;}
+.essence-copy h2 {font-size: clamp(82px, 8.7vw, 112px); letter-spacing: -.03em;}
+.essence-subtitle {font-size: 37px; line-height: 1.2;}
+.essence-copy>p:not([class]) {font-size: 14px; line-height: 1.8;}
+.essence-footnote {font-size: 10px; letter-spacing: .19em;}
+.protocol-cover {transform: none; box-shadow: 0 20px 55px #18140f3b;}
+.pillars-heading .eyebrow {font-size: 10px; letter-spacing: .12em;}
+.pillars-heading>span:last-child {font-size: 28px;}
+.pillars h3 {font-size: 28px;}
+.pillars p {font-size: 12px; line-height: 1.7;}
+.details-copy>p:not(.eyebrow) {font-size: 14px;}
+.art-gallery figcaption {font-size: 10px;}
+.faq h2 {font-size: clamp(46px,4.2vw,64px);}
+.faq .text-link {font-size: 12px;}
+summary {font-size: 14px;}
+details p, details>a {font-size: 13px;}
+
+/* Último convite: fotografia protagonista, integrada ao grid e à moldura. */
+.contact {background: #515d41;}
+.contact-grid {grid-template-columns: minmax(0,1.17fr) minmax(300px,.83fr); gap: clamp(65px,8vw,125px); min-height: 630px; padding-top: 90px; padding-bottom: 90px;}
+.contact-copy .eyebrow {font-size: 11px; letter-spacing: .13em; margin-bottom: 28px;}
+.contact h2 {font-size: clamp(48px,4.8vw,70px); line-height: 1.075;}
+.contact-copy>p:not(.eyebrow) {font-size: 15px; line-height: 1.75; margin-top: 26px; margin-bottom: 29px;}
+.contact-grid>img {width: 100%; max-width: 400px; height: 490px; object-fit: cover; object-position: 50% 43%; justify-self: center; border-radius: 200px 200px 2px 2px; outline: 1px solid #e8e9dc88; outline-offset: 12px; box-shadow: 15px 17px 0 #e8e9dc20;}
+.contact-number {font-size: 11px; letter-spacing: .09em; margin-top: 23px;}
+.site-footer {padding-top: 38px; padding-bottom: 0;}
+.site-footer>div>p, .site-footer>div>a {font-size: 12px;}
+.footer-note {font-size: 29px;}
+.footer-bottom {font-size: 10px;}
+
+@media (max-width: 1100px) {
+  .header-inner {height: 108px;}
+  .brand {width: 232px; height: 95px;}
+  .brand img {width: 237px; top: -69px;}
+  .hero {min-height: 660px; gap: 36px;}
+  h1 {font-size: clamp(59px,6.6vw,80px);}
+  .hero-photo {height: 515px;}
+  .brand-band {gap: 13px;}
+  .band-note {display: none;}
+  .contact-grid {gap: 54px; grid-template-columns: minmax(0,1.1fr) minmax(280px,.9fr);}
+  .contact h2 {font-size: 52px;}
+  .contact-grid>img {height: 440px;}
+}
+@media (max-width: 800px) {
+  html {scroll-padding-top: 95px;}
+  .header-inner {height: 92px; padding-left: 24px; padding-right: 24px;}
+  .brand {width: 204px; height: 84px;}
+  .brand img {width: 210px; top: -61px; left: -4px;}
+  .nav {top: 92px; gap: 4px; font-size: 13px;}
+  .nav-cta {font-size: 12px;}
+  .hero {grid-template-columns: minmax(0,1fr) minmax(0,1fr); min-height: 0; padding-top: 55px; padding-bottom: 88px; gap: 30px;}
+  .hero-copy .eyebrow {font-size: 10px; margin-bottom: 24px; gap: 10px;}
+  .short-rule {width: 22px; flex-basis: 22px;}
+  h1 {font-size: clamp(47px,6.7vw,61px);}
+  .intro {font-size: 13px; margin: 24px 0;}
+  .hero-photo {height: 445px;}
+  .photo-frame {border-radius: 160px 160px 2px 2px;}
+  .photo-caption {font-size: 22px; padding: 15px 17px; right: 5px; left: -17px; gap: 10px;}
+  .caption-spark {transform: scale(.72); transform-origin: center right; margin-left: -10px;}
+  .explore-link {left: 25px; bottom: 24px;}
+  .brand-band {padding: 22px 25px; gap: 15px;}
+  .brand-band>span:not(.band-note):not(.band-separator) {font-size: 33px;}
+  .band-separator {transform: scale(.8); margin: 0 -4px;}
+  .care-item {padding: 0 20px;}
+  .care-item p {font-size: 13px;}
+  .about {gap: 36px;}
+  .about-copy h2 {font-size: 46px;}
+  .about-copy>p:not(.eyebrow):not(.role) {font-size: 13px;}
+  .essence-copy h2 {font-size: 83px;}
+  .essence-copy>p:not([class]) {font-size: 13px;}
+  .pillars h3 {font-size: 26px;}
+  .pillars p {font-size: 12px;}
+  .details-copy>p:not(.eyebrow) {font-size: 13px;}
+  .contact-grid {min-height: 0; gap: 34px; padding-top: 66px; padding-bottom: 66px;}
+  .contact h2 {font-size: 44px;}
+  .contact-grid>img {height: 390px;}
+}
+@media (max-width: 600px) {
+  .section-space {padding-top: 78px; padding-bottom: 78px;}
+  .hero {grid-template-columns: 1fr; padding-top: 44px; padding-bottom: 80px; gap: 32px;}
+  .hero-copy .eyebrow {font-size: 10px; letter-spacing: .12em; margin-bottom: 25px;}
+  h1 {font-size: clamp(52px,12.2vw,72px); line-height: 1.015;}
+  .intro {font-size: 14px; margin: 26px 0;}
+  .hero-signature {display: none;}
+  .hero-visual {margin: 0 15px 0 12px; padding-bottom: 43px;}
+  .hero-photo {height: 465px; object-position: 50% 38%;}
+  .photo-frame {border-radius: 155px 155px 2px 2px;}
+  .photo-caption {left: -12px; right: 6px; bottom: 0; font-size: 25px; padding: 17px 18px; gap: 10px;}
+  .caption-spark {transform: scale(.8); margin-left: -5px;}
+  .vertical-note {right: -21px; font-size: 7px;}
+  .explore-link {bottom: 26px; font-size: 8px;}
+  .brand-band {gap: 7px; padding: 23px 14px; justify-content: space-between;}
+  .brand-band>span:not(.band-note):not(.band-separator) {font-size: clamp(27px,7.3vw,37px);}
+  .band-separator {transform: scale(.66); margin: 0 -6px; flex-basis: 30px;}
+  .care-item, .care-item:first-child, .care-item:last-child {padding: 23px 0;}
+  .care-item p {font-size: 13px;}
+  .about-copy h2 {font-size: 47px;}
+  .about-visual>img {border-radius: 0 110px 0 0;}
+  .essence {padding-top: 55px; padding-bottom: 65px;}
+  .essence-topline .eyebrow, .essence-edition {font-size: 8px;}
+  .essence-copy h2 {font-size: clamp(72px,21vw,100px);}
+  .essence-subtitle {font-size: 32px;}
+  .essence-copy>p:not([class]) {font-size: 14px;}
+  .protocol-cover {transform: none;}
+  .pillars-heading .eyebrow {font-size: 9px;}
+  .pillars h3 {font-size: 25px;}
+  .pillars p {font-size: 12px;}
+  .details-copy h2 {font-size: 48px;}
+  .faq h2 {font-size: 48px;}
+  summary {font-size: 14px;}
+  .contact-grid {grid-template-columns: 1fr; gap: 47px; padding-top: 69px; padding-bottom: 65px;}
+  .contact h2 {font-size: clamp(43px,11vw,54px);}
+  .contact-copy .eyebrow {font-size: 10px;}
+  .contact-copy>p:not(.eyebrow) {font-size: 14px;}
+  .contact-grid>img {width: calc(100% - 25px); max-width: 380px; height: 435px; justify-self: center; border-radius: 175px 175px 2px 2px; outline-offset: 8px; box-shadow: 10px 12px 0 #e8e9dc20;}
+  .footer-note {display: none;}
+  .site-footer>div>p, .site-footer>div>a {font-size: 12px;}
+  .footer-bottom {font-size: 9px;}
+}
+@media (max-width: 370px) {
+  .brand-band {gap: 2px; padding-left: 10px; padding-right: 10px;}
+  .brand-band>span:not(.band-note):not(.band-separator) {font-size: 25px;}
+  .band-separator {flex-basis: 26px; margin: 0 -7px;}
+  .hero-photo {height: 410px;}
+  .photo-caption {font-size: 22px;}
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {transition: none !important;}
+}
