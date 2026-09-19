@@ -237,3 +237,21 @@ details p, details>a {font-size: 13px;}
   .brand-band {gap: 9px;}
   .band-separator {width: 14px; flex-basis: 14px;}
 }
+
+/* Mantém o símbolo, o nome e NUTRICIONISTA inteiros dentro do enquadramento. */
+.header-inner {height: 162px;}
+.brand {height: 152px;}
+@media (max-width: 1100px) {
+  .header-inner {height: 140px;}
+  .brand {height: 130px;}
+}
+@media (max-width: 800px) {
+  .header-inner {height: 116px;}
+  .brand {height: 110px;}
+  .nav {top: 116px;}
+}
+@media (max-width: 600px) {
+  .header-inner {height: 108px;}
+  .brand {height: 102px;}
+  .nav {top: 108px;}
+}
