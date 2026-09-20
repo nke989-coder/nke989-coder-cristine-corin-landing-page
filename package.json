@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "description": "Landing page de Cristine Corin com materiais originais da cliente",
-  "scripts": { "dev": "node scripts/serve.mjs", "start": "node scripts/serve.mjs", "check": "node --check src/main.js" },
-  "engines": { "node": ">=20" }
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check src/main.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
